@@ -1,5 +1,5 @@
-# my-gcs-bucket
-Terraform repo to provision Google Cloud Storage Bucket
+# Provision GCS bucket
+Terraform to provision Google Cloud Storage Bucket
 ## Steps to provision GCS bucket
 + Create terraform.tfvars file
 + Assign values to all variables. refer variables.tf file
