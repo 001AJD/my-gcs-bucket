@@ -1,6 +1,12 @@
 # my-gcs-bucket
-<<<<<<< HEAD
 Terraform repo to provision Google Cloud Storage Bucket
-=======
-Terraform repo to provision google cloud bucket in GCP
->>>>>>> master
+## Steps to provision GCS bucket
++ Create terraform.tfvars file
++ Assign values to all variables. refer variables.tf file
++ Download keys to be used for GCP project and place in "Keys" folder. see providers.tf and update file path and name accordingly
++ Run **terraform plan -out=tf.plan** and review plan
++ Run **terraform apply "tf.plan"** command to create the bucket
+
+## Steps to destroy GCS bucket
++ Run **terraform plan -out=tf.plan -destroy** command and review plan
++ Run **terraform apply "tf.plan"** command to destroy the bucket
