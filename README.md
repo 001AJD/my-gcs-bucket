@@ -10,3 +10,6 @@ Terraform to provision Google Cloud Storage Bucket
 ## Steps to destroy GCS bucket
 + Run **terraform plan -out=tf.plan -destroy** command and review plan
 + Run **terraform apply "tf.plan"** command to destroy the bucket
+
+## Steps to format terraform script
++ Run **terraform fmt**
