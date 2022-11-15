@@ -38,5 +38,10 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# GCP Keys
 keys
 keys/*
+
+# plan
+plan/*.out
+plan/*.*
